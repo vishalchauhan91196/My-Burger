@@ -1,0 +1,15 @@
+.NavigationItems{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    list-style: none;
+}
+
+@media (min-width: 500px){
+    .NavigationItems{
+    flex-flow: row;
+    }
+}
