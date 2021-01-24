@@ -2,8 +2,6 @@ import React from 'react';
 
 import classes from './Order.css';
 
-import Button from '../UI/Button/Button';
-
 const Order = (props) => {
     const ingredients= [];
     for(let ingredientName in props.ingredients){
